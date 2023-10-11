@@ -1,0 +1,205 @@
+html,body{
+    margin: 0px;
+}
+#body-header{
+    background-image: url("image/macbook.jpg");
+    height: 65vh;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    word-spacing: 40px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+.horizontal-list li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+#name-container{
+    margin-top: 10vh;
+    text-align: center;
+}
+#myName{
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a img{
+    padding: 10px;
+    font-size: 1rem;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.social-icons li a img:hover{
+    box-shadow: 2px 2px 6px 2px rgba(226, 11, 11, 0.3);
+}
+#about{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#my-info{
+    margin: 16.8%;
+    margin-top: 30px;
+    word-spacing: 6px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(40, 101, 215);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+section{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n){
+    background-color:rgb(219, 237, 243);
+}
+section:nth-child(2n + 1){
+    background-color: white;
+}
+.section-heading{
+    font-weight: 800;
+}
+.section-heading span{
+    font-size: 40px;
+    color: #0a6bbb;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+.skills-progress{
+    width: 30rem;
+    height: 2.5rem;
+    background-color: lightgrey;
+    border-radius: 1.2rem;
+    border: 2px solid rgb(2, 2, 2);
+}
+/* skills text property */
+.skills-name span{
+    color: white;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10%;
+}
+/* here >div is used to do the css only to the direct child of skills-progress */
+.skills-progress>div{
+    border-radius: 17px 0px 0px 17px;
+    background-color: rgba(226, 111, 121, 6) ;
+    height: inherit;
+}
+/* timeline */
+.timeline {
+    position: relative;
+    width: 75%;
+
+}
+.timeline-box:nth-child(2n){
+    left: 58%;
+}
+.timeline-box{
+    position: relative;
+    margin: 5px;
+    left: 5%;
+    width: 40%;
+    min-height: 150px;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: '' ;
+    position: absolute;
+    top: 45%;
+    right: -14%;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    width: 1rem;
+    height:1rem;
+    background-color: #0a6bbb;
+}
+.timeline-box:nth-child(2n)::after{
+    content: '' ;
+    position: absolute;
+    top: 45%;
+    left: -23%;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    width: 1rem;
+    height:1rem;
+    background-color: #0a6bbb;
+}
+.timeline-box img{
+    height: 220px;
+    width: 380px;
+    border-radius: 10%;
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed#0096fa6b;
+    top: 10%;
+    left: 50%;
+
+}
+.timeline-traveller{
+    position: sticky;
+    top: 25%;
+
+}
+.project-items{
+    margin: 2%;
+    padding: 0%;
+}
+.project-items img{
+    width: 290px;
+    height: 200px;
+    border-radius: 10%;
+}
+#contact{
+    background-color: #0a6bbb;
+}
+.fill-data{
+    margin: 10px;
+    padding: 10px;
+}
+.fill-data input{
+    text-align: center;
+}
+.tagline{
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    margin-top: 170px;
+    margin-left: 80px;
+}
