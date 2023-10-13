@@ -74,7 +74,7 @@ html,body{
     line-height: 30px;
     text-align: center;
     color: rgb(40, 101, 215);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
 section{
