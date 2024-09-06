@@ -37,7 +37,7 @@ export default function Projects() {
 
   return (
     <>
-    <div id='projects' className="min-h-svh text-center mt-14">
+    <div id='projects' className="min-h-svh text-center mt-14 flex flex-col justify-center">
     <div>
         <h1 className="text-4xl font-extrabold font-sans text-white">Projects</h1>
         <h3 className="opacity-50 font-serif text-white">My technical experience</h3>

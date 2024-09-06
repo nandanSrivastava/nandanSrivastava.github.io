@@ -22,7 +22,7 @@ export default function Skills() {
   ];
 
   return (
-    <div id='skills' className="min-h-svh mt-12 text-white text-center flex flex-col items-center">
+    <div id='skills' className="min-h-svh mt-12 text-white text-center flex flex-col justify-center items-center">
       <div>
         <h1 className="text-4xl font-extrabold font-sans">Skills</h1>
         <h3 className="opacity-50 font-serif">My technical skills</h3>
