@@ -1,4 +1,4 @@
-import Photo from '../assets/Photo.png'
+import Photo from '../assets/photo.png'
 import LinkedIn from '../assets/linkedin.png'
 import Telegram from '../assets/telegram.png'
 import Gmail from '../assets/gmail.png'
