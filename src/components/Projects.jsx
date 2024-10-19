@@ -7,25 +7,25 @@ export default function Projects() {
       title: "Play-Plus",
       description: "A gaming website featuring a variety of multiple games",
       githubLink: "https://github.com/nandanSrivastava/play-plus.git",
-      imageUrl: "src/assets/play-plus.jpg"
+      imageUrl: "https://i.postimg.cc/x1t4kpt1/play-plus.jpg"
     },
     {
       title: "WeatherNow",
       description: "Instant weather information at your fingertips",
       githubLink: "https://github.com/nandanSrivastava/WeatherNow.git",
-      imageUrl: "src/assets/weather.jpg"
+      imageUrl: "https://i.postimg.cc/XJJ3GywT/weather.jpg"
     },
     {
       title: "AttendEaze",
       description: "Comprehensive attendance monitoring and management system",
       githubLink: "https://github.com/nandanSrivastava/AttendanceMonitor.git",
-      imageUrl: "src/assets/attendence.png"
+      imageUrl: "https://i.postimg.cc/XqRy1L2S/attendence.png"
     },
     {
       title: "Password Generator",
       description: "Web application for generating secure random passwords",
       githubLink: "https://github.com/nandanSrivastava/Password-generator.git",
-      imageUrl: "src/assets/password.jpg"
+      imageUrl: "https://i.postimg.cc/SKHYDqD1/password.jpg"
     }
   ];
 
