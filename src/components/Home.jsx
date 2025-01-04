@@ -53,7 +53,7 @@ export default function Home() {
               Say Hello 🚀
             </motion.a>
             <motion.a
-              href="public\NandanResume.pdf"
+              href="https://drive.google.com/file/d/1VA44PEPONaHrdjuxP4y-_pP2Rd_vK9gm/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent border-2 border-purple-700 text-purple-600 font-bold py-3 px-6 rounded-full hover:bg-purple-700 hover:text-white transition duration-300 transform hover:scale-105 text-base sm:text-lg shadow-lg"
